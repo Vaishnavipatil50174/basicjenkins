@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsApplication {
 
 	// Correct way to declare SLF4J logger
-	//private static final Logger logger = LoggerFactory.getLogger(JenkinsApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(JenkinsApplication.class);
 
 	@PostConstruct
 	public void init() {
